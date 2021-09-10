@@ -1,0 +1,18 @@
+- Inspire block shadow should be removed
+- "or want something different?" button text size should be same
+	hardcoded width should be removed
+- Drop down box hover color instead of text only
+- "Frequently asked questions" position should be changed
+	- pictures on left side
+	- collapse boxes on right side
+	- collapse boxes text should unbold
+	- FAQs collapse text should be unbold
+	- padding and margin should be fixed
+	  "mt-3 pt-1" should be added in main div
+   	  of FAQs collapse
+	- "Ready to automate your creative?"
+	  background image should be removed
+	- 
+
+
+ABOUT US page

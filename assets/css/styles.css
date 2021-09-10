@@ -251,7 +251,7 @@ a {
     border: none;
     border-radius: 1rem;
     width: 18.5rem;
-    padding: 1.4rem 1.4rem;
+    padding: 1.4rem 1.4rem 1.4rem 1.4rem;
   }
 
   .nav__link {
@@ -263,10 +263,22 @@ a {
     color: var(--white-color);
   }
 
-  .nav__link_1 {
+  /* .nav__link_1 {
     color: rgb(192, 192, 192);
   }
   .nav__link_1:hover {
+    color: var(--black-color);
+  } */
+
+  .dropdown__item a {
+    display: block;
+    width: 100%;
+    color: rgb(192, 192, 192);
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.15s;
+  }
+  .dropdown__item a:hover {
     color: var(--black-color);
   }
 
@@ -386,10 +398,23 @@ a {
     color: var(--white-color);
   }
 
-  .nav__link_1 {
+  /* .nav__link_1 {
     color: rgb(192, 192, 192);
   }
   .nav__link_1:hover {
+    color: var(--black-color);
+  } */
+
+  .dropdown__item a {
+    display: block;
+    width: 100%;
+    color: rgb(192, 192, 192);
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.15s;
+    font-size: 0.85rem !important;
+  }
+  .dropdown__item a:hover {
     color: var(--black-color);
   }
 
@@ -397,7 +422,7 @@ a {
     border: none;
     border-radius: 1rem;
     width: 15rem;
-    padding: 1rem 1rem;
+    padding: 1.6rem 1.6rem;
   }
 
   .plan-btn a {
@@ -1021,12 +1046,16 @@ a {
   border: 1px solid rgb(209, 209, 209);
 }
 
+.acc-item-1{
+  border: 1px solid rgb(209, 209, 209) !important;
+}
+
 /* READY-TO-AUTOMATE SECTION */
 .automate {
-  background: url("https://uploads-ssl.webflow.com/604a1fc99a592e712033a74e/608d21c190e9d91fb663f840_60327393c2e3fc59ba1202cd_Frame%207.svg");
+  /* background: url("https://uploads-ssl.webflow.com/604a1fc99a592e712033a74e/608d21c190e9d91fb663f840_60327393c2e3fc59ba1202cd_Frame%207.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;  */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1158,6 +1187,6 @@ a {
   background-color: rgb(0, 133, 119) !important;
 }
 
-.plan:hover{
+.plan:hover {
   text-decoration: underline;
 }
