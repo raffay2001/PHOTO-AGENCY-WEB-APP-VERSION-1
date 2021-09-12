@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     <title>Product Photography Cost | Monthly Plans | We Should Create UK</title>
+    <!-- CSS FOR ANIMATION  -->
+    <link rel="stylesheet" href="assets/css/aos.css">
 </head>
 <style media="screen">
     .carousel-cell {
@@ -135,7 +137,7 @@
                             </div>
                         </li>
 
-                        <li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
+                        <li class="nav__item"><a href="about_us.html" class="nav__link">About Us</a></li>
 
                         <li class="nav__item"><a href="/sign_in.html" class="nav__link">Sign In</a></li>
 
@@ -149,7 +151,7 @@
     </header>
 
     <!-- PRICING SECTION  -->
-    <section class="pricing container mt-5 pt-5" id="pricing">
+    <section  data-aos = "fade-up" class="pricing container mt-5 pt-5" id="pricing">
         <h1 class="pb-1 display-4 fw-bold hero-head text-center">
             Unleash your social media ad performance
         </h1>
@@ -394,7 +396,7 @@
     </section>
 
     <!-- WANT-SOMETHING DIFFERENT SECTION  -->
-    <section class="container-fluid something-diff mt-5 pt-5" id="something-diff">
+    <section  data-aos = "fade-up" class="container-fluid something-diff mt-5 pt-5" id="something-diff">
         <h1 class="pb-1 pt-5 display-4 fw-bold hero-head text-center">
             or want something different?
         </h1>
@@ -478,7 +480,7 @@
     </section>
 
     <!-- HAVE SOME QUESTIONS SECTION  -->
-    <section class="x--section wf-section p-5 mt-5">
+    <section  data-aos = "fade-up" class="x--section wf-section p-5 mt-5">
         <div class="x--container">
             <h1 class="pb-1 display-4 fw-bold hero-head text-center">
                 Have some questions?
@@ -525,7 +527,7 @@
 
 
     <!-- SOCIAL MEDIA SECTION  -->
-    <section class="container social-media p-5 mt-5" id="social-media">
+    <section  data-aos = "fade-up" class="container social-media p-5 mt-5" id="social-media">
         <h1 class="pb-1 display-4 fw-bold hero-head">
             Content optimised for social media
         </h1>
@@ -582,7 +584,7 @@
 
 
     <!-- FAQ SECTION  -->
-    <section class="faq pt-5 mt-5" id="faq">
+    <section  data-aos = "fade-up" class="faq pt-5 mt-5" id="faq">
         <h1 class="pb-1 display-4 fw-bold hero-head text-center">
             Frequently asked questions
         </h1>
@@ -759,7 +761,7 @@
     </section>
 
     <!-- DONT JUST TAKE OUR WORD FOR IT SECTION (CRAOUSAL) -->
-    <setion style="background-color: rgb(225, 242, 238);" class="take-word mt-5 pt-5" id="take-word">
+    <setion  data-aos = "fade-up" style="background-color: rgb(225, 242, 238);" class="take-word mt-5 pt-5" id="take-word">
         <h1 style="background-color: rgb(225, 242, 238);"
             class="mb-0 pt-5 mt-0 pb-1 display-4 fw-bold hero-head text-center take-word-head">
             Don't just take our word for it
@@ -1028,23 +1030,23 @@
                         <li><a class="footer_list_link" href="#">Pricing</a></li>
                         <li><a class="footer_list_link" href="#">Sign In</a></li>
                         <li><a class="footer_list_link" href="#">Next Steps</a></li>
-                        <li><a class="footer_list_link" href="#">About Us</a></li>
-                        <li><a class="footer_list_link" href="#">Blog</a></li>
+                        <li><a class="footer_list_link" href="about_us.html">About Us</a></li>
+                        <li><a class="footer_list_link" href="blog.html">Blog</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-12">
                     <h4 class="fw-bold footer-heading-1 pb-4">INFORMATION</h4>
                     <ul class="footer_list">
-                        <li><a class="footer_list_link" href="#">Model Form</a></li>
+                        <li><a class="footer_list_link" href="model_form.html">Model Form</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-12">
                     <h4 class="fw-bold footer-heading-1 pb-4">DETAILS</h4>
                     <ul class="footer_list">
-                        <li><a class="footer_list_link" href="#">Privacy</a></li>
-                        <li><a class="footer_list_link" href="#">Terms</a></li>
+                        <li><a class="footer_list_link" href="privacy.html">Privacy</a></li>
+                        <li><a class="footer_list_link" href="terms.html">Terms</a></li>
                     </ul>
                 </div>
 
@@ -1082,6 +1084,12 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- JS FOR ANIMATION  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
 </body>
 
 </html>

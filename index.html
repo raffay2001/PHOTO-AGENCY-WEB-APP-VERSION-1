@@ -34,7 +34,11 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
+    <!-- CSS FOR ANIMATION  -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+
     <title>We Should Create | Product Photography Agency | Home</title>
+
 </head>
 <style media="screen">
     .carousel-cell {
@@ -138,7 +142,7 @@
                             </div>
                         </li>
 
-                        <li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
+                        <li class="nav__item"><a href="/about_us.html" class="nav__link">About Us</a></li>
 
                         <li class="nav__item"><a href="/sign_in.html" class="nav__link">Sign In</a></li>
 
@@ -157,7 +161,7 @@
             <div class="row mt-5 p-5">
 
                 <!-- HERO CONTENT  -->
-                <div class="col-lg-6 col-12 pb-3 mb-4 text-center hero-content">
+                <div data-aos="fade-up" class="col-lg-6 col-12 pb-3 mb-4 text-center hero-content">
                     <h1 class="pt-5 display-4 fw-bold hero-head-1">
                         Fast, flexible, <br> social content
                     </h1>
@@ -172,7 +176,7 @@
 
                 <!-- IMAGES  -->
                 <div class="col-lg-6 col-12 hero-images">
-                    <div class="pt-3 row gx-2 gy-2 pb-2">
+                    <div data-aos="fade-right" class="pt-3 row gx-2 gy-2 pb-2">
                         <div class="col-md-3 col-6">
                             <img class="img-fluid rounded hero-image" src="assets/img/hero_1.png" alt="hero_1">
                         </div>
@@ -187,7 +191,7 @@
                         </div>
                     </div>
 
-                    <div class="row gx-2 gy-2 pt-2">
+                    <div data-aos="fade-left" class="row gx-2 gy-2 pt-2">
                         <div class="col-md-3 col-6">
                             <img class="img-fluid rounded hero-image" src="assets/img/hero_5.png" alt="hero_1">
                         </div>
@@ -210,7 +214,7 @@
     <!-- COMPANIES SECTION -->
     <section class="companies" id="companies">
         <p class="text-center companies-para p-2 mt-4">Trusted by leading e-commerce brands</p>
-        <div class="comp-head">
+        <div data-aos="fade-down" class="comp-head">
             <div class="comp-imgs">
                 <img class="img-fluid comp-img" src="assets/img/comp_1.jpg" alt="comp_1">
             </div>
@@ -237,7 +241,7 @@
         <section class="how-work mt-5 pt-5" id="how-work">
             <div class="row">
                 <!-- VIDEO AND IMG  -->
-                <div class="col-lg-6 col-12 video-head pb-2 d-flex justify-content-center align-items-center">
+                <div data-aos="fade-right" class="col-lg-6 col-12 video-head pb-2 d-flex justify-content-center align-items-center">
                     <div class="video-box">
                         <img src="assets/img/how_does_it_work.png" alt="video illustrations"
                             class="img-fluid video-img">
@@ -254,7 +258,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12 pt-2 mt-4 d-flex justify-content-center align-items-center">
+                <div data-aos="fade-left" class="col-lg-6 col-12 pt-2 mt-4 d-flex justify-content-center align-items-center">
                     <div class="container">
                         <h1 class="display-4 fw-bold hero-head">
                             How does it work?
@@ -284,14 +288,15 @@
 
     <!-- IMAGE EXAMPLE SECTION  -->
     <section class="img-examples container" id="img-examples pt-5 mt-5">
-        <h1 class="pb-1 display-4 fw-bold hero-head text-center pt-5 mt-5">
+        <h1 data-aos="fade-up" class="pb-1 display-4 fw-bold hero-head text-center pt-5 mt-5">
             Here’s some image examples
         </h1>
-        <p class="pt-2 hero-para_1 text-center">
+        <p data-aos="fade-up" class="pt-2 hero-para_1 text-center">
             We work with e-commerce brands across all industries in the UK
         </p>
         <!-- SAMPLE IMAGES  -->
-        <div class="row pb-3 pb-3 mt-5">
+        <div data-aos="fade-up" class="row pb-3 pb-3 mt-5">
+
             <div class="col-lg-12 col-12 hero-images">
                 <div class="row gx-2 gy-2 pb-2">
                     <div class="col-md-3 col-6">
@@ -326,10 +331,10 @@
         </div>
         <!-- LOGOS  -->
         <div class="row pt-3 pb-3">
-            <div class="col-lg-6 col-6 d-flex justify-content-end">
+            <div data-aos="fade-up" class="col-lg-6 col-6 d-flex justify-content-end">
                 <img class="img-fluid rounded logo-img" src="assets/img/logo_1.png" alt="hero_1">
             </div>
-            <div class="col-lg-6 col-6 d-flex justify-content-start">
+            <div data-aos="fade-up" class="col-lg-6 col-6 d-flex justify-content-start">
                 <img class="img-fluid rounded logo-img" src="assets/img/logo_2.png" alt="hero_1">
             </div>
         </div>
@@ -338,7 +343,7 @@
     </section>
 
     <!-- KPI's SECTION  -->
-    <section class="kpi container mt-5 pt-5" id="kpi">
+    <section data-aos="fade-up" class="kpi container mt-5 pt-5" id="kpi">
         <h1 class="pb-1 display-4 fw-bold hero-head text-center">
             Save time and smash your KPIs
         </h1>
@@ -366,7 +371,7 @@
     </section>
 
     <!-- PRICING SECTION  -->
-    <section class="pricing container mt-5 pt-5" id="pricing">
+    <section data-aos="fade-up" class="pricing container mt-5 pt-5" id="pricing">
         <h1 class="pb-1 display-4 fw-bold hero-head text-center">
             Transparent pricing, no surprises
         </h1>
@@ -611,7 +616,7 @@
     </section>
 
     <!-- WANT-SOMETHING DIFFERENT SECTION  -->
-    <section class="container-fluid something-diff mt-5 pt-5" id="something-diff">
+    <section data-aos="fade-up" class="container-fluid something-diff mt-5 pt-5" id="something-diff">
         <h1 class="pb-1 pt-5 display-4 fw-bold hero-head text-center">
             or want something different?
         </h1>
@@ -695,7 +700,7 @@
     </section>
 
     <!-- DONT JUST TAKE OUR WORD FOR IT SECTION (CRAOUSAL) -->
-    <setion style="background-color: rgb(225, 242, 238);" class="take-word mt-5 pt-5" id="take-word">
+    <setion data-aos="fade-up" style="background-color: rgb(225, 242, 238);" class="take-word mt-5 pt-5" id="take-word">
         <h1 style="background-color: rgb(225, 242, 238);"
             class="mb-0 pt-5 mt-0 pb-1 display-4 fw-bold hero-head text-center take-word-head">
             Don't just take our word for it
@@ -903,13 +908,13 @@
             </div>
 
         </div>
-        <div style="background-color: rgb(225, 242, 238);"
+        <div  style="background-color: rgb(225, 242, 238);"
             class="logos d-flex flex-wrap justify-content-center align-items-center p-5">
 
-            <div class="p-3 d-flex justify-content-center align-items-center">
+            <div  class="p-3 d-flex justify-content-center align-items-center">
                 <img class="img-fluid rounded logo-img" src="assets/img/logo_1.png" alt="hero_1">
             </div>
-            <div class="p-3 d-flex flex-wrap justify-content-center align-items-center">
+            <div  class="p-3 d-flex flex-wrap justify-content-center align-items-center">
                 <div class="p-2">
                     <img src="assets/img/logo_3.png" alt="comp1" class="img-fluid logo-img_1">
                 </div>
@@ -933,7 +938,7 @@
     </setion>
 
     <!-- HAVE SOME QUESTIONS SECTION  -->
-    <section class="x--section wf-section p-5 mt-5">
+    <section data-aos="fade-up" class="x--section wf-section p-5 mt-5">
         <div class="x--container">
             <h1 class="pb-1 display-4 fw-bold hero-head text-center">
                 Have some questions?
@@ -979,7 +984,7 @@
     </section>
 
     <!-- SOCIAL MEDIA SECTION  -->
-    <section class="container social-media p-5 mt-5" id="social-media">
+    <section data-aos="fade-up" class="container social-media p-5 mt-5" id="social-media">
         <h1 class="pb-1 display-4 fw-bold hero-head">
             Content optimised for social media
         </h1>
@@ -1035,7 +1040,7 @@
     </section>
 
     <!-- FAQ SECTION  -->
-    <section class="faq pt-5 mt-5" id="faq">
+    <section data-aos="fade-up" class="faq pt-5 mt-5" id="faq">
         <h1 class="pb-1 display-4 fw-bold hero-head text-center">
             Frequently asked questions
         </h1>
@@ -1259,23 +1264,23 @@
                         <li><a class="footer_list_link" href="#">Pricing</a></li>
                         <li><a class="footer_list_link" href="sign_in.html">Sign In</a></li>
                         <li><a class="footer_list_link" href="#">Next Steps</a></li>
-                        <li><a class="footer_list_link" href="#">About Us</a></li>
-                        <li><a class="footer_list_link" href="#">Blog</a></li>
+                        <li><a class="footer_list_link" href="about_us.html">About Us</a></li>
+                        <li><a class="footer_list_link" href="blog.html">Blog</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-12">
                     <h4 class="fw-bold footer-heading-1 pb-4">INFORMATION</h4>
                     <ul class="footer_list">
-                        <li><a class="footer_list_link" href="#">Model Form</a></li>
+                        <li><a class="footer_list_link" href="model_form.html">Model Form</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-12">
                     <h4 class="fw-bold footer-heading-1 pb-4">DETAILS</h4>
                     <ul class="footer_list">
-                        <li><a class="footer_list_link" href="#">Privacy</a></li>
-                        <li><a class="footer_list_link" href="#">Terms</a></li>
+                        <li><a class="footer_list_link" href="privacy.html">Privacy</a></li>
+                        <li><a class="footer_list_link" href="terms.html">Terms</a></li>
                     </ul>
                 </div>
 
@@ -1289,7 +1294,6 @@
 
         </footer>
     </div>
-
 
 
 
@@ -1315,6 +1319,17 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- JS FOR ANIMATION  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
 </body>
 
 </html>
+
+    <!-- CSS FOR ANIMATION  -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    data-aos = "fade-up"
